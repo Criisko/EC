@@ -1,9 +1,9 @@
 {
   "version": "0.9",
-  "download": "https://flightsim.to/file/104570/environment-launcher",
+  "download": "",
   "changelog": [
-    "HOTFIX: Process Extraction Algorithm — Added a specialized algorithm to automatically identify game process names. This significantly improves stability when launching apps via external launchers without a manually defined process name.",
-    "HOTFIX: Profile Creation — Fixed an issue where the sequence duration timer would fail to reset when creating a new profile immediately after viewing an existing one.",
-    "HOTFIX: Tooltip Update — Refined the 'Monitor Process' hint in application settings to provide clearer guidance and information."
+    "",
+    "",
+    ""
   ]
 }
