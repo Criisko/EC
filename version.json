@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1",
+  "version": "0.9",
   "download": "https://flightsim.to/file/104570/environment-launcher",
   "changelog": [
     "HOTFIX: Process Extraction Algorithm — Added a specialized algorithm to automatically identify game process names. This significantly improves stability when launching apps via external launchers without a manually defined process name.",
