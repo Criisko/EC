@@ -1,9 +1,13 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.5",
   "download": "",
   "changelog": [
-    "",
-    "",
-    ""
+    "Added ability to minimize the application to the system tray",
+    "Added option to start the application in a minimized state",
+    "Added hotkey support for Toggle Monitoring, Manual Duck (Hold/Toggle), and Mute Microphone",
+    "Added language selection window on first launch",
+    "Added volume restoration on application exit when ducking is active",
+    "Added volume restoration on next launch after a crash or unexpected shutdown",
+    "General improvements and optimizations to the audio ducking system"
   ]
 }
