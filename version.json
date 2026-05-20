@@ -1,38 +1,34 @@
 {
-  "version": "0.9.6",
+  "version": "0.9.7",
   "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar",
   "changelog": [
-    "NEW: Support for auto-ducking on all audio output devices instead of just the system default",
-    "NEW: Added process name filtering and manual entry option in the Watched Apps section",
-    "CHANGED: Completely rewritten hotkey system for improved reliability and responsiveness",
-    "CHANGED: Redesigned user interface for a more consistent and intuitive experience",
-    "CHANGED: Improved percentage-based volume reduction logic for better reliability regardless of initial app volumes",
-    "CHANGED: Rebuilt the update check system for better reliability",
-    "CHANGED: Various under-the-hood code improvements and general optimizations",
-    "FIX: Long process names no longer overlap other elements in the Audio Monitor section",
-    "FIX: Interface no longer stretches when displaying long process names in Watched Apps"
+    "FIX: Resolved a visual glitch where the application window would briefly flash white for a split second during startup.",
+    "FIX: Fixed an issue in the Audio Monitor where text labels failed to update immediately after a language change, requiring an application restart.",
+    "CHANGED: Implemented various UI/UX refinements and enhancements to improve the look and feel of the interface.",
+    "CHANGED: Conducted major code refactoring and under-the-hood optimization for a cleaner, more efficient codebase.",
+    "CHANGED: Improved overall application stability, reducing potential crashes during long-haul flights.",
+    "NEW: Integrated the Terms of Service and Privacy Policy agreement window that appears upon first launch before using the software.",
+    "NEW: Introduced foundational code changes and preparations in anticipation of the upcoming 1.0 full release."
   ],
   "editions": {
     "free": {
-      "version": "0.9.6",
+      "version": "0.9.7",
       "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar"
     },
     "pro": {
-      "version": "0.9.6",
+      "version": "0.9.7",
       "download": ""
     }
   },
   "releases": {
-    "0.9.6": [
-      "NEW: Support for auto-ducking on all audio output devices instead of just the system default",
-      "NEW: Added process name filtering and manual entry option in the Watched Apps section",
-      "CHANGED: Completely rewritten hotkey system for improved reliability and responsiveness",
-      "CHANGED: Redesigned user interface for a more consistent and intuitive experience",
-      "CHANGED: Improved percentage-based volume reduction logic for better reliability regardless of initial app volumes",
-      "CHANGED: Rebuilt the update check system for better reliability",
-      "CHANGED: Various under-the-hood code improvements and general optimizations",
-      "FIX: Long process names no longer overlap other elements in the Audio Monitor section",
-      "FIX: Interface no longer stretches when displaying long process names in Watched Apps"
+    "0.9.7": [
+      "FIX: Resolved a visual glitch where the application window would briefly flash white for a split second during startup.",
+      "FIX: Fixed an issue in the Audio Monitor where text labels failed to update immediately after a language change, requiring an application restart.",
+      "CHANGED: Implemented various UI/UX refinements and enhancements to improve the look and feel of the interface.",
+      "CHANGED: Conducted major code refactoring and under-the-hood optimization for a cleaner, more efficient codebase.",
+      "CHANGED: Improved overall application stability, reducing potential crashes during long-haul flights.",
+      "NEW: Integrated the Terms of Service and Privacy Policy agreement window that appears upon first launch before using the software.",
+      "NEW: Introduced foundational code changes and preparations in anticipation of the upcoming 1.0 full release."
     ]
   }
 }
