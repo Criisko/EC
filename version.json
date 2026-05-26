@@ -1,5 +1,5 @@
 {
-  "version": "0.9.7",
+  "version": "0.9.5",
   "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar",
   "changelog": [
     "FIX: Resolved a visual glitch where the application window would briefly flash white for a split second during startup.",
@@ -12,16 +12,16 @@
   ],
   "editions": {
     "free": {
-      "version": "0.9.7",
+      "version": "0.9.5",
       "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar"
     },
     "pro": {
-      "version": "0.9.7",
+      "version": "0.9.5",
       "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar"
     }
   },
   "releases": {
-    "0.9.7": [
+    "0.9.5": [
       "FIX: Resolved a visual glitch where the application window would briefly flash white for a split second during startup.",
       "FIX: Fixed an issue in the Audio Monitor where text labels failed to update immediately after a language change, requiring an application restart.",
       "CHANGED: Implemented various UI/UX refinements and enhancements to improve the look and feel of the interface.",
