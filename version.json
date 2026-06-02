@@ -1,34 +1,37 @@
 {
-  "version": "0.9.7",
+  "version": "1.3.0",
   "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar",
   "changelog": [
-    "FIX: Resolved a visual glitch where the application window would briefly flash white for a split second during startup.",
-    "FIX: Fixed an issue in the Audio Monitor where text labels failed to update immediately after a language change, requiring an application restart.",
-    "CHANGED: Implemented various UI/UX refinements and enhancements to improve the look and feel of the interface.",
-    "CHANGED: Conducted major code refactoring and under-the-hood optimization for a cleaner, more efficient codebase.",
-    "CHANGED: Improved overall application stability, reducing potential crashes during long-haul flights.",
-    "NEW: Integrated the Terms of Service and Privacy Policy agreement window that appears upon first launch before using the software.",
-    "NEW: Introduced foundational code changes and preparations in anticipation of the upcoming 1.0 full release."
+    "FIX: Resolved a logic issue where audio ducking would randomly interrupt and backgrounds sounds would prematurely return to default levels despite active communication.",
+    "FIX: Fixed a bug in the Audio Monitor where the name of the currently monitored application was not displaying correctly.",
+    "FIX: Fixed stability issues and eliminated critical bugs, significantly reducing potential application crashes during long-haul flights.",
+    "FIX: Resolved various minor bugs and optimized overall performance.",
+    "CHANGED: Implemented visual adjustments and UI refinements to enhance the interface's clarity.",
+    "CHANGED: Updated internal software libraries to ensure better compatibility with the latest Windows updates.",
+    "CHANGED: Refactored core components to minimize false positives in Windows Defender, which can occur due to the application's low-level integration with the Windows audio sub-system.",
+    "NEW: Added information and references regarding the launch of the new PRO version, which premieres alongside this 1.0.0 release."
   ],
   "editions": {
     "free": {
-      "version": "0.9.7",
+      "version": "1.3.0",
       "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar"
     },
     "pro": {
-      "version": "0.9.7",
-      "download": "https://www.kscodelabs.com/api/download/comm"
+      "version": "1.3.0",
+      "download": "https://www.kscodelabs.com/api/download/comm",
+      "changelog": []
     }
   },
   "releases": {
-    "0.9.7": [
-      "FIX: Resolved a visual glitch where the application window would briefly flash white for a split second during startup.",
-      "FIX: Fixed an issue in the Audio Monitor where text labels failed to update immediately after a language change, requiring an application restart.",
-      "CHANGED: Implemented various UI/UX refinements and enhancements to improve the look and feel of the interface.",
-      "CHANGED: Conducted major code refactoring and under-the-hood optimization for a cleaner, more efficient codebase.",
-      "CHANGED: Improved overall application stability, reducing potential crashes during long-haul flights.",
-      "NEW: Integrated the Terms of Service and Privacy Policy agreement window that appears upon first launch before using the software.",
-      "NEW: Introduced foundational code changes and preparations in anticipation of the upcoming 1.0 full release."
+    "1.3.0": [
+      "FIX: Resolved a logic issue where audio ducking would randomly interrupt and backgrounds sounds would prematurely return to default levels despite active communication.",
+      "FIX: Fixed a bug in the Audio Monitor where the name of the currently monitored application was not displaying correctly.",
+      "FIX: Fixed stability issues and eliminated critical bugs, significantly reducing potential application crashes during long-haul flights.",
+      "FIX: Resolved various minor bugs and optimized overall performance.",
+      "CHANGED: Implemented visual adjustments and UI refinements to enhance the interface's clarity.",
+      "CHANGED: Updated internal software libraries to ensure better compatibility with the latest Windows updates.",
+      "CHANGED: Refactored core components to minimize false positives in Windows Defender, which can occur due to the application's low-level integration with the Windows audio sub-system.",
+      "NEW: Added information and references regarding the launch of the new PRO version, which premieres alongside this 1.0.0 release."
     ]
   }
 }
