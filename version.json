@@ -1,29 +1,35 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1.0",
   "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar",
   "changelog": [
-    "FIX: Resolved a logic issue where audio ducking would randomly interrupt and backgrounds sounds would prematurely return to default levels despite active communication.",
-    "FIX: Fixed a bug in the Audio Monitor where the name of the currently monitored application was not displaying correctly.",
-    "FIX: Fixed stability issues and eliminated critical bugs, significantly reducing potential application crashes during long-haul flights.",
-    "FIX: Resolved various minor bugs and optimized overall performance.",
-    "CHANGED: Implemented visual adjustments and UI refinements to enhance the interface's clarity.",
-    "CHANGED: Updated internal software libraries to ensure better compatibility with the latest Windows updates.",
-    "CHANGED: Refactored core components to minimize false positives in Windows Defender, which can occur due to the application's low-level integration with the Windows audio sub-system.",
-    "NEW: Added information and references regarding the launch of the new PRO version, which premieres alongside this 1.0.0 release."
+    "NEW: Added an optional manual ducking slider, allowing users to independently configure manual ducking strength without affecting auto-ducking settings.",
+    "NEW: Integrated a dynamic promotion detection system that automatically displays current special offers and discounts directly on the Pro version reference button.",
+    "CHANGED: Migrated the update checker framework from GitHub to the official website API; future update alerts will now direct users to a central download page on the official website, allowing them to choose their preferred distribution platform.",
+    "CHANGED: Implemented minor UI adjustments and visual refinements across several areas of the application to enhance interface consistency.",
+    "FIXED: Added missing translations for both the main user interface and the system tray context menu.",
+    "FIXED: Corrected and improved localization strings across all supported languages for better accuracy."
   ],
   "editions": {
     "free": {
-      "version": "1.0.0",
+      "version": "1.0.1.0",
       "download": "https://flightsim.to/addon/104867/environment-comm-hear-the-voice-not-the-roar"
     },
     "pro": {
-      "version": "1.0.0",
+      "version": "1.0.1.0",
       "download": "https://www.kscodelabs.com/api/download/comm",
       "changelog": []
     }
   },
   "releases": {
-    "1.0.0": [
+    "1.0.1.0": [
+      "NEW: Added an optional manual ducking slider, allowing users to independently configure manual ducking strength without affecting auto-ducking settings.",
+      "NEW: Integrated a dynamic promotion detection system that automatically displays current special offers and discounts directly on the Pro version reference button.",
+      "CHANGED: Migrated the update checker framework from GitHub to the official website API; future update alerts will now direct users to a central download page on the official website, allowing them to choose their preferred distribution platform.",
+      "CHANGED: Implemented minor UI adjustments and visual refinements across several areas of the application to enhance interface consistency.",
+      "FIXED: Added missing translations for both the main user interface and the system tray context menu.",
+      "FIXED: Corrected and improved localization strings across all supported languages for better accuracy."
+    ],
+    "1.0.1.0": [
       "FIX: Resolved a logic issue where audio ducking would randomly interrupt and backgrounds sounds would prematurely return to default levels despite active communication.",
       "FIX: Fixed a bug in the Audio Monitor where the name of the currently monitored application was not displaying correctly.",
       "FIX: Fixed stability issues and eliminated critical bugs, significantly reducing potential application crashes during long-haul flights.",
